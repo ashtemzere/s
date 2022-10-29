@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+body {
+	background: #1e1e1e;
+} 
+.info a ion-icon{
+	color: #fff;
+	display: flex;
+	font-size: 25px;
+	margin-left: 92%;
+	margin-top: 8px;
+}
+.container{
+	margin-top: -30px;
+}
+.container img{
+	width: 110px;
+	background-color: white;
+	display: flex;
+	margin-left: 36%;
+	border-radius: 50%;
+	margin-top: 17%;
+}
+.container h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.container p{
+	font-family: 'Noto Sans Symbols', sans-serif;
+	text-align: center;
+	color: #bdbdbd;
+}
+.ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 90%;
+}
+.ul li{
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-top: 10px;
+	left: 5%;
+	height: 70px;
+	border-radius: 10px;
+	background-color: #171717;
+	box-shadow: 0 0 10px 0 #313131;
+}
+.br{
+	position: relative;
+	left: 10%;
+	width: 91%;
+	height: 1px;
+	margin-top: 10px;
+	background: linear-gradient(to right, white, #1e1e1e);
+}
+.text h1{
+	font-size: 18px;
+	margin-left: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.text span{
+	font-size: 12px;
+	color: #bdbdbd;
+	margin-left: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+.get{
+	position: absolute;
+	left: 85%;
+	width: 10%;
+	display: flex;
+	justify-content: felx-end;
+font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+}
+.ul li a{
+	position: sticky;
+	font-weight: 300;
+	text-decoration: none;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 3px 6px 3px 6px;
+	color: blue;
+}
+.ul li a:hover{
+	background-color: #171717;
+	color: #fff;
+}
+.ul li img{
+	border-radius: 10px;
+	margin-left: 6px;
+	margin-left: 6px;
+	width: 50px;
+	background-color: black;
+}
+.ico a ion-icon{
+	text-align: center;
+	font-size: 29px;
+	margin: 15px;
+   	justify-content: center;
+	align-itmes: center;
+	position: relative;
+	left: 5%;
+}
+.ico a ion-icon:hover{
+	color: #FF5733;
+}

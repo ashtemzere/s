@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Courgette&family=Dangrek&family=Noto+Sans+Arabic&family=Reem+Kufi+Fun&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Courgette&family=Dangrek&family=Noto+Sans+Arabic&family=Poppins&family=Reem+Kufi+Fun&family=Righteous&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	color: #fff;
+}
+body {
+	background-color: #1F1F1F;
+font-family: 'Reem Kufi Fun', sans-serif;
+}
+.first a ion-icon{
+	padding: 4px 4px;
+	margin-top: 15px;
+	margin-left: 5px;
+	font-size: 28px;
+}
+
+.info img{
+	display: flex;
+	background-color: #000000;
+	width: 200px;
+	height: 190px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin-left: 105px;
+	margin-top: 60px;
+	top: 50%;
+}
+.info h2{
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Bad Script', cursive;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.info h2ion-icon{
+	color: #fff;
+	font-size: 15px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+h6{
+	font-family: 'Reem Kufi Fun', sans-serif;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+p{
+	font-family: 'Reem Kufi Fun', sans-serif;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #BDBDBD;
+	font-size: 12px;
+}
+.end p{
+	color: #000000;
+	margin-top: 150px;
+	background-color: snow;
+font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	height: 50px;
+	padding: 10px 0px;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+}
